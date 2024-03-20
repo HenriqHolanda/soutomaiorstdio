@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'NunitoSans-Regular';
+    src: url(/Fonts/NunitoSans-Regular.ttf) format('truetype');
+}
+
+
+
+.login_form{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login_form h1{
+    font-family:'NunitoSans-Regular', sans-serif;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.input label{
+    display: block;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    font-family:'NunitoSans-Regular', sans-serif;
+    font-size: 0.9rem;
+    color: #7d8592;
+    font-weight: 600;
+
+}
+
+.input input{
+    width: 20rem;
+    height: 2rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    margin-bottom: 20px;
+    font-family:'NunitoSans-Regular', sans-serif;
+    
+    
+}
+
+.login_form button{
+    font-family:'NunitoSans-Regular', sans-serif;
+    width: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    font-weight: 600;
+}
+
+.login_form button:hover {
+    background-color: #0056b3;
+}
+
+.questions{
+    display: flex;
+    justify-content: space-between;
+    font-family:'NunitoSans-Regular', sans-serif;
+    font-size: 0.9rem;
+    color: #7d8592;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.questions label{
+    display: flex;
+    align-items: center;
+}
+
+.questions_checkbox{
+    display: flex;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #007bff;
+    font-family:'NunitoSans-Regular', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+

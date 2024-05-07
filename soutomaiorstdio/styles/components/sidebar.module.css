@@ -1,0 +1,20 @@
+.Container{
+    background-color: #b14826;
+    height: 96%;
+    border-radius: 40px;
+}
+
+.logoImg{
+    height: 30%;
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+}
+
+.Links button{
+    background-color: #b14826;
+    border: none;
+    color: white;
+}

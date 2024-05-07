@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../styles/login_form.module.css'
+import styles from '../styles/components/login_form.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 
@@ -13,7 +13,7 @@ const LoginForm = () => {
     console.log('Email:', email);
     console.log('Senha:', password);
 
-    router.push('/aspas/menu')
+    router.push('/home/home')
 
 
   };

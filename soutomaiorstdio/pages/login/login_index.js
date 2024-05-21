@@ -10,7 +10,7 @@ export default function LoginPage(){
 
         <div className={styles.login}>
 
-            <div className = {styles.logo}>
+              <div className = {styles.logo}>
                 <div className = {styles.logo_text}>
                     <h1>Your place to work</h1>
                     <h1>Plan. Create. Control</h1>
